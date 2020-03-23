@@ -66,3 +66,28 @@ body{
     margin-top: 30px;
     display: inline-block;
 }
+
+/* product */
+#product{
+    padding: 40px 0;
+    text-align: center;
+}
+#product .col-md-4{
+    padding: 15px;
+}
+#product .col-md-4:hover{
+    background: #f1f1f1;
+    box-shadow: 1px 1px 4px #ccc;
+}
+#product a{
+    color: #212121;
+    text-decoration: none;
+}
+#product img{
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+}
+#product h3{
+    font-weight: bold;
+}

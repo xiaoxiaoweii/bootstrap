@@ -1,6 +1,17 @@
 body{
     font-family: 'Microsoft YaHei', sans-serif;
 }
+.xiaoxiaoweii-icon {
+
+    color: rgb(251, 121, 59);
+    border-radius: 50%;
+    width: 20px;
+    height: 30px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 5px;
+}
+
 /*导航*/
 .navbar-default{
     background-color: #fff;
@@ -75,7 +86,7 @@ body{
 #product .col-md-4{
     padding: 15px;
 }
-#product .col-md-4:hover{
+#product .col-md-3:hover{
     background: #f1f1f1;
     box-shadow: 1px 1px 4px #ccc;
 }
@@ -85,9 +96,23 @@ body{
 }
 #product img{
     margin: 0 auto;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
 }
 #product h3{
     font-weight: bold;
+}
+
+/*荣誉资质*/
+#certificate{
+    background: #f8f8f8;
+}
+#certificate , #certificate1{
+    padding: 80px 0;
+}
+#certificate h2 , #certificate1 h2{
+    font-weight: bold;
+}
+#certificate p  , #certificate1 p{
+    line-height: 25px;
 }

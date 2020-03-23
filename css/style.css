@@ -151,7 +151,7 @@ body{
 
 /*企业app*/
 #app{
-    padding: 0;
+    padding: 20px 0;
 }
 #app h2{
     font-weight: bold;

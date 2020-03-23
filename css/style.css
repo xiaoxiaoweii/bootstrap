@@ -108,7 +108,7 @@ body{
     background: #f8f8f8;
 }
 #certificate , #certificate1{
-    padding: 80px 0;
+    padding: 40px 0;
 }
 #certificate h2 , #certificate1 h2{
     font-weight: bold;
@@ -121,7 +121,7 @@ body{
 /*course*/
 #news{
     background: #f8f8f8;
-    padding: 80px 0;
+    padding: 40px 0;
     text-align: center;
 }
 #news h2{
@@ -151,7 +151,7 @@ body{
 
 /*企业app*/
 #app{
-    padding: 80px 0;
+    padding: 0;
 }
 #app h2{
     font-weight: bold;
@@ -167,4 +167,45 @@ body{
 }
 #app .btn:hover{
     background: #381a00;
+}
+
+/*contact*/
+#contact{
+    background: url("/img/Snipaste_2020-03-23_21-38-43.png") no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+#contact h2{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+#contact p{
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+#contact .form-control {
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#contact textarea.form-control{
+    height: auto;
+}
+#contact input[type="submit"]{
+    background: #40D2B1;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+#contact input[type="submit"]:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*footer*/
+footer{
+    font-weight: 400;
+    text-align: center;
+    padding:20px ;
 }
